@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #2B283A;
+}
+
+.border-bottom {
+    width: 460px;
+    border: 1px solid #F5F5F5;
+    margin: 15px auto 20px auto;
+}
+
+/* header */
+
+header {
+    display: flex; 
+    background-color: #F55A5A;
+    align-items: center;
+    justify-content: center;  
+    margin-bottom: 40px;    
+}
+
+.header--icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 7px;
+    object-fit: cover; 
+}
+
+.header--title {
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
+
+/* cards */
+
+.cards {
+    padding-left: 40px; 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}  
+
+.cards--photo {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    margin-right: 20px;
+    object-fit: cover; 
+}
+
+.cards--location {
+    display: flex;
+    margin-bottom: 7px;
+}
+
+
+.location {
+    font-size: 10px;
+    letter-spacing: 0.17em;
+    margin: 0 12px 0 5px;
+}
+
+.google-map {
+    font-size: 10.24px;
+    color: #918E9B;
+}
+
+.cards--title {
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+
+.cards--date {
+    font-size: 10.24px;
+}
+
+.cards--description {
+    font-size: 10.24px;
+    width: 325px;
+}
